@@ -47,6 +47,11 @@
   .header-linkers{
     display: none !important;
   }
+  .header{
+    .container{
+      padding: 0 30px;
+    }
+  }
   .burger-button {
     width: 30px;
     height: 30px;
