@@ -25,10 +25,12 @@
 }
 
 @media screen and(max-width: 576px) {
-  .container-info{
-    .img-wrapper{
-      img{
-        width: 250px;
+  .product-wrapper{
+    .container-info{
+      .img-wrapper{
+        img{
+          width: 250px;
+        }
       }
     }
   }
