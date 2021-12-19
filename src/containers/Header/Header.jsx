@@ -7,13 +7,12 @@ import closeButton from "../../assets/images/icons/close.png";
 
 import {useState} from "react";
 
-const Header = () =>{
+const Header = () => {
     const [BurgerButton, setBurgerButton] = useState(false);
-
-    return(
+    return (
         <header className="header">
             <div className="container">
-                <Link to='/'  className='logo' >
+                <Link to='/' className='logo'>
                     <img src={Logo} alt=""/>
                 </Link>
                 <button onClick={() => setBurgerButton(!BurgerButton)}
@@ -23,17 +22,18 @@ const Header = () =>{
                 </button>
                 <ul className="header-linkers">
                     <li>
-                        <Link to='/about' >
-                            About
+                        <Link to='/'>
+                            Home
                         </Link>
                     </li>
                     <li>
-                        <Link to='/contact' >
-                            Contact
+                        <Link to='/about'>
+                            About
                         </Link>
                     </li>
+
                 </ul>
-                <MobileMenu BurgerButton={BurgerButton} />
+                <MobileMenu BurgerButton={BurgerButton} setBurgerButton={setBurgerButton}/>
             </div>
         </header>
     )

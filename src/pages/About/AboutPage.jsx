@@ -1,6 +1,8 @@
 import './AboutPage.scss'
 import zavodPhoto from '../../assets/images/zavod.jpeg'
 import VideoCard from "../../components/VideoCard";
+import Footer from "../../containers/Footer";
+import videoData from "./Data/videoData";
 
 const AboutPage = () => {
     return (
@@ -40,9 +42,18 @@ const AboutPage = () => {
             </div>
             <div className="video-content">
                 <div className="container">
-                    <VideoCard/>
+                    {
+                        videoData.map(item => (
+                            <VideoCard
+                                videoLink={item.videoLink}
+                                title={item.title}
+                                overview={item.overview}
+                            />
+                        ))
+                    }
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

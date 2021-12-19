@@ -2,20 +2,20 @@ import './MobileMenu.scss'
 import {Link} from "react-router-dom";
 
 
-const MobileMenu = ({BurgerButton}) => {
+const MobileMenu = ({BurgerButton, setBurgerButton}) => {
 
     return (
         <>
             <div className={`mobile-menu ${BurgerButton ===  true ? '' : 'hidden'}`} >
                 <ul className="linkers">
                     <li>
-                        <Link to='/about'>
-                            About
+                        <Link to='/' onClick={()=> setBurgerButton(!BurgerButton)} >
+                            Home
                         </Link>
                     </li>
                     <li>
-                        <Link to='/contact'>
-                            Contact
+                        <Link to='/about' onClick={()=> setBurgerButton(!BurgerButton)} >
+                            About
                         </Link>
                     </li>
                 </ul>
