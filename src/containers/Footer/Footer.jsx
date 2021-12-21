@@ -9,18 +9,18 @@ const Footer = () =>{
                     <img src={Logo} alt="" className='logo' />
                     <ul className='phone-number'>
                         <li>
-                            <a href="https://google.com">
-                                phone number
+                            <a href="tel: 998909711550">
+                                +998 (90) 971-55-50
                             </a>
                         </li>
                         <li>
-                            <a href="https://">
-                                phone number
+                            <a href="tel: +998900615550">
+                                +998 (90) 061-55-50
                             </a>
                         </li>
                         <li>
-                            <a href="https://">
-                                phone number
+                            <a href="tel: +99890372-05-55">
+                                +998( 90) 372-05-55
                             </a>
                         </li>
                     </ul>
