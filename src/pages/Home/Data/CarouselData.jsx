@@ -1,5 +1,7 @@
-import img1 from '../../../assets/images/image-1.jpeg'
-import img2 from '../../../assets/images/image-2.jpeg'
+import img1 from '../../../assets/images/carousel-1.jpeg'
+import img2 from '../../../assets/images/carousel-2.jpg'
+import img3 from '../../../assets/images/carousel-3.jpg'
+import img4 from '../../../assets/images/carousel-4.jpeg'
 
 const CarouselData = [
     {
@@ -13,12 +15,12 @@ const CarouselData = [
         overview: 'lorem ipsum dolar sit amet'
     },
     {
-        imgLink: img1,
+        imgLink: img3,
         title: 'your title',
         overview: 'lorem ipsum dolar sit amet'
     },
     {
-        imgLink: img2,
+        imgLink: img4,
         title: 'your title',
         overview: 'lorem ipsum dolar sit amet'
     }

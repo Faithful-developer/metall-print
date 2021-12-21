@@ -1,3 +1,6 @@
+import certificate1 from '../../assets/images/sertificate-1.jpg'
+import certificate2 from '../../assets/images/sertificate-2.jpg'
+import certificate3 from '../../assets/images/sertificate-3.jpg'
 import './AboutPage.scss'
 import zavodPhoto from '../../assets/images/zavod.jpeg'
 import VideoCard from "../../components/VideoCard";
@@ -57,6 +60,13 @@ const AboutPage = () => {
                             />
                         ))
                     }
+                </div>
+            </div>
+            <div className="certificate">
+                <div className="container">
+                    <img src={certificate1} alt=""/>
+                    <img src={certificate2} alt=""/>
+                    <img src={certificate3} alt=""/>
                 </div>
             </div>
             <Footer/>
