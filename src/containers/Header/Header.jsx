@@ -5,10 +5,8 @@ import MobileMenu from "../MobileMenu";
 import burgerButton from "../../assets/images/icons/menu.png";
 import closeButton from "../../assets/images/icons/close.png";
 
-import {useState} from "react";
+const Header = ({BurgerButton, setBurgerButton}) => {
 
-const Header = () => {
-    const [BurgerButton, setBurgerButton] = useState(false);
     return (
         <header className="header">
             <div className="container">

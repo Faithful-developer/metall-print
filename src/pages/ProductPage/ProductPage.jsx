@@ -12,7 +12,7 @@ const ProductPage = ({match}) =>{
     }
 
     let Product = findArrayElementByTitle(ProductData, id)
-    console.log(Product)
+
     return(
         <>
             <div className="product-wrapper">

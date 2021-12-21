@@ -3,14 +3,20 @@ import zavodPhoto from '../../assets/images/zavod.jpeg'
 import VideoCard from "../../components/VideoCard";
 import Footer from "../../containers/Footer";
 import videoData from "./Data/videoData";
+import {Helmet} from "react-helmet";
 
 const AboutPage = () => {
     return (
         <>
+            <Helmet>
+                <title>
+                    About Page
+                </title>
+            </Helmet>
             <div className="location">
                 <div className="container">
                     <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.8127915211353!2d69.20100591597202!3d41.269411879275175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a19bb884ca9%3A0xb7386f7cd9f2cf2b!2z0JzQtdC90LXQtNC20LzQtdC90YIg0JTQtdCy0LXQu9C-0L_QvNC10L3RgiDQmNC90YHRgtC40YLRg9GCINC-0YQg0KHQuNC90LPQsNC_0L7RgCDQuNC9INCi0LDRiNC60LXQvdGC!5e0!3m2!1sru!2s!4v1639581862359!5m2!1sru!2s"/>
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2031.9817307350913!2d69.30686861183123!3d41.22001159767039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae5e3ec5a36e1d%3A0xa0b2478ab5aaf447!2z0YPQu9C40YbQsCDQntC70YLQuNC90YLQvtC_0LPQsNC9LCDQotCw0YjQutC10L3Rgiwg0KPQt9Cx0LXQutC40YHRgtCw0L0!5e1!3m2!1sru!2s!4v1639915444564!5m2!1sru!2s"/>
                 </div>
             </div>
             <div className="info-container">
