@@ -1,16 +1,16 @@
 import './Footer.scss';
 import Logo from '../../assets/images/icons/logo.png';
 
-const Footer = () =>{
-    return(
+const Footer = () => {
+    return (
         <>
             <footer className="footer">
                 <div className="container">
-                    <img src={Logo} alt="" className='logo' />
+                    <img src={Logo} alt="" className='logo'/>
                     <ul className='phone-number'>
                         <li>
-                            <a href="tel: 998909711550">
-                                +998 (90) 971-55-50
+                            <a href="tel: +99890021550">
+                                +998 (90) 021-55-50
                             </a>
                         </li>
                         <li>
@@ -19,25 +19,26 @@ const Footer = () =>{
                             </a>
                         </li>
                         <li>
+                            <a href="tel: +998909711550">
+                                +998 (90) 971-55-50
+                            </a>
+                        </li>
+                        <li>
                             <a href="tel: +99890372-05-55">
                                 +998( 90) 372-05-55
                             </a>
                         </li>
                     </ul>
-                    <ul className='email-address' >
+                    <ul className='email-address'>
                         <li>
-                            <a href="https://google.com">
-                                email-dress
+                            <a href="https://goo.gl/maps/qKsRN8eMh7yiPZky8">
+                                Республика Узбекистан, г. Ташкент., Бектемирский р-н,
+                                ул. Олтинтопган 40.
                             </a>
                         </li>
                         <li>
-                            <a href="https://google.com">
-                                email-dress
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://google.com">
-                                email-dress
+                            <a href="mailto: tassintez@mail.ru ">
+                                tassintez@mail.ru
                             </a>
                         </li>
                     </ul>
